@@ -161,7 +161,7 @@ Withdrawn 500
 Deposited 2000
 
 This allows users to see basic deposit and withdrawal activities.
-
+```txt
 🧩 Project Modules
 
 The project is divided into separate Python files to keep the code organized.
