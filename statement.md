@@ -225,8 +225,6 @@ The system provides basic handling for situations such as:
 # 🧩 8. Project Modules
 
 The project is divided into the following modules:
-
-```text
 ATM-Bank-Management-System/
 │
 ├── main.py
