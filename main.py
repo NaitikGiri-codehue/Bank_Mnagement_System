@@ -46,51 +46,38 @@ while True:
             management.manage(current_account)
 
     elif choice == "5":
-
         if current_account is None:
-
             print("Please login first")
-
+            
         else:
-
             print("\n1. View Transactions")
             print("2. Last Transaction")
             print("3. Count Transactions")
 
             option = input("Enter choice: ")
-
             if option == "1":
-                
                 transactions.transactions(history)
 
             elif option == "2":
-
                 transactions.show_last_transaction(history)
 
             elif option == "3":
-
                 transactions.count_transactions(history)
 
             else:
-
                 print("Invalid choice")
-
+                
     elif choice == "6":
-
         if current_account is None:
-
             print("No user is logged in")
 
         else:
-
             login.logout()
             current_account = None
 
     elif choice == "7":
-
         print("\nThank you for using ATM & Bank Management System!")
         break
 
     else:
-
         print("Invalid choice")
